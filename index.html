@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>countdown-timer by Imed Jaberi</title>
+          <!-- my libs -->
+                    <!-- CSS -->
+          <!-- my CSS code -->
+          <link rel="stylesheet" type="text/css" href="/lib/my-code/css/main.css">
+          <link rel="stylesheet" type="text/css" href="/lib/my-code/css/util.css">
+          <!-- flipclock : style of clock -->
+          <link rel="stylesheet" href="/lib/flipclock/compiled/flipclock.css">
+          <!-- materialize : style of forms -->
+          <link rel="stylesheet" href="/lib/materialize/dist/css/materialize.min.css">
+          <!-- w3 : style of errors alerts -->
+          <link rel="stylesheet" href="/lib/w3/css/w3.min.css">
+          <!-- fontawesome : icons of buttons -->
+          <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>          
+                    <!-- JAVASCRIPT -->
+          <!-- jQuery -->
+          <script src="/lib/jquery/dist/jquery.min.js"></script>
+          <!-- flipclock : clock functionality -->
+          <script src="/lib/flipclock/compiled/flipclock.min.js"></script>
+          <!-- materialize : froms event & animtions -->
+          <script src="/lib/materialize/dist/js/materialize.min.js"></script>
+          
+
+ 
+</head>
+<body>
+  <div class="w3-display-middle myApp">
+    <div class="myContainer  p-l-50 p-r-50 p-t-70 p-b-70">
+        <div id="myForm" class="container">
+            <form>
+                <h2 class="w3-text-green w3-xxlarge" style="text-shadow:1px 1px 0 #444"> <b> Set Data for my shutdown timer : </b> </h2>
+                <div class= "input-field">
+                    <label for="hours"> Hours </label>
+                    <input type="number" id="hours" name="hours" min="0" />
+                    <div id="validationHours" class="w3-panel w3-red" style="display:none">
+                      Please , make sure to enter the number of hours .. 
+                    </div>
+                </div>
+                <div class= "input-field">
+                  <label for="minutes"> Minutes </label>
+                  <input type="number" id="minutes" name="minutes" min="0" />
+                  <div id="validationMinutes" class="w3-panel w3-red" style="display:none">
+                      Please , make sure to enter the number of hours .. 
+                  </div>
+                </div>
+                <div class= "input-field">
+                  <label for="seconds"> Seconds </label>
+                  <input type="number" id="seconds" name="seconds" min="0" />
+                  <div id="validationSeconds" class="w3-panel w3-red" style="display:none">
+                      Please , make sure to enter the number of hours .. 
+                  </div>
+                </div>
+            </form>
+            <div id="hideFormAndShowTimer" class = "input-field">
+                <button  id="setTimer" class="btn pink lighten-1 z-depth-0"> SET TIMER </button>
+            </div>
+            <div id="validationSuccess"></div>
+        </div>
+      
+        <div id="timer" class="container" style="display:none;">
+          <div class="clock" style="margin:2em;"></div>
+          <!-- <div class="message"></div> -->          
+          <button id="start" class="btn #455a64 #1b5e20 green darken-4">
+              Start Clock
+            <i class='far fa-play-circle' style='font-size:20px;color:white'></i>
+          </button>
+          <button id="stop" class="btn #ad1457 pink darken-3">
+              Stop Clock
+            <i class='far fa-stop-circle' style='font-size:20px;color:white'></i>
+          </button>
+          <button id="reset" class="btn #78909c blue-grey lighten-1"> 
+              Reset Clock 
+            <i class='fas fa-sync-alt' style='font-size:18px;color:white'></i>
+            </button>
+        </div>
+    </div>
+  </div>
+
+
+        <!-- my-jQuery-Script -->
+        <script type="text/javascript" src="/lib/my-code/js/main.js"></script>
+</body>
+</html>

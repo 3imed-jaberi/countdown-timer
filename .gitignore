@@ -1,0 +1,42 @@
+
+# Ignore all excess files from flipclock 
+
+lib/flipclock/compiled/flipclock.js
+lib/flipclock/examples
+lib/flipclock/examples/*
+lib/flipclock/node_modules
+lib/flipclock/node_modules/*
+lib/flipclock/src
+lib/flipclock/src/*
+lib/*/*.js
+lib/*/*.json
+lib/*/*.gitignore
+lib/*/*.md
+lib/*/*.txt
+
+# Ignore all excess files from materialize
+
+lib/materialize/sass
+lib/materialize/.github
+lib/materialize/docs
+lib/materialize/js
+lib/materialize/extras
+lib/materialize/templates
+lib/materialize/test
+lib/materialize/tests
+lib/materialize/*.*
+lib/materialize/LICENSE
+lib/materialize/dist/css/materialize.css
+lib/materialize/dist/js/materialize.js
+
+# Ignore all excess files from jquery
+
+lib/jquery/src
+lib/jquery/external
+lib/jquery/dist/core.js
+lib/jquery/dist/jquery.js
+lib/jquery/dist/jquery.slim.js
+lib/jquery/dist/*.*.*.js
+lib/jquery/dist/*.*.*.map
+lib/jquery/dist/*.*.map
+

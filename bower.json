@@ -1,0 +1,31 @@
+{
+  "name": "my-countdown-timer",
+  "description": "This is a simple application that enables you to enter the time and then displays it as a countdown timer",
+  "main": "index.html",
+  "keywords": [
+    "javascript",
+    "es5+",
+    "jQuery",
+    "materialize",
+    "flipclock",
+    "css",
+    "html"
+  ],
+  "authors": [
+    "imed jaberi"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/3imed-jaberi/countdown-timer.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flipclock": "^0.7.7",
+    "materialize": "^1.0.0"
+  }
+}
