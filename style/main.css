@@ -15,6 +15,14 @@ body , html {
 .p-t-70 {padding-top: 70px;}
 .p-b-70 {padding-bottom: 70px;}
 
+/* start w3 style */
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-text-green,.w3-hover-text-green:hover{color:#4CAF50!important}
+.w3-xxlarge{font-size:36px!important}
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+/* end w3 style */
+
 .myApp {
   width: 100%;  
   min-height: 100vh;
